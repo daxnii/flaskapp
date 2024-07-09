@@ -7,6 +7,6 @@ spec:
   - name: flask
     image: daxnii/flaskapp:v1.0.0
     ports:
-    - containerPort: 80
+    - containerPort: 5000
   imagePullSecrets:
   - name: docker-pull-secret
