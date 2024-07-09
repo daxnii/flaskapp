@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: flask
-    image: daxnii/flaskapp:v1.0.0
+    image: daxnii/flaskapp:v2.0.0
     ports:
     - containerPort: 5000
